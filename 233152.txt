@@ -13,7 +13,19 @@ git add SI2025Lab1Main.java
 git commit -m "implemented mark-all-tasks-in-a-category-as-completed function"
 git push origin 9-mark-all-tasks-in-a-category-as-completed
 
-Dali nastanaa nekoi konflikti? Ne, bidejki nemase situacija kade ke se poklopat nekoi sodrzini
+Na GitHub napraviv pull requests za prvite dve granki(po greska i za tretata ama posle go resiv toa)
 
-Za da gi spojam master so 9-mark-all-tasks-in-a-category-as-completed iskoristiv 
+Na git za da gi spojam master so 9-mark-all-tasks-in-a-category-as-completed (tretata granka) iskoristiv 
 git merge 9-mark-all-tasks-in-a-category-as-completed (prethodno se vrativ na master grankata)
+
+
+Za 20 i 22 cekori: Konflikti nastanaa, na GitHub so pull baranjata konfliktite se resija avtomatski od GitHub so koristenja na fast-forward strategijata. Na git koga tretata granka ja spojuvav so master grankata se koristese recursive merge za razresuvanje na konfliktot.
+
+
+4. FORKING 
+git clone https://github.com/stefanvezenkoski/SI_2025_lab1_151020 => kloniram repo lokalno na mojot kompjuter so git clone
+nano 233152.txt (mi se otvara prozor kade si go pisuvam imeto)
+git add .
+git commit -m "Add file"
+git push origin master
+
