@@ -97,14 +97,8 @@ class TaskManager {
 
     // 7. Count tasks per category
     public Map<String, Integer> countTasksPerCategory() {
-         Map<String, Integer> hashMap = new HashMap<>();
-
-        for (Task t : tasks) {
-            String cat = t.getCategory();
-            hashMap.put(cat, hashMap.getOrDefault(cat, 0) + 1);
-        }
-
-        return hashMap;
+        // TODO: Implement counting logic
+        return new HashMap<>();
 
     }
 
@@ -115,7 +109,12 @@ class TaskManager {
 
     // 9. Mark all tasks in a category as completed
     public void markCategoryCompleted(String category) {
-        // TODO: Implement bulk completion logic
+           for (Task t : tasks) {
+            if (t.getCategory().equals(category) && !t.isCompleted()) {
+                t.complete();
+            }
+        }
+
     }
 }
 
