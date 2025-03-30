@@ -1,0 +1,19 @@
+git checkout 1-remove-a-task-by-name => za da preminam na soodvetnite granki se koristi git checkout
+git add SI2025Lab1Main.java => go stave fajlot vo stage
+git commit -m "implemented remove function"  => pravi komit so poraka "implemented remove function" i se dodava na local repo
+git push origin 1-remove-a-task-by-name  => se pusnuvaat promenite na github
+
+git checkout 7-count-tasks-per-category  
+git add SI2025Lab1Main.java
+git commit -m "implemented count function"
+git push origin 7-count-tasks-per-category
+
+git checkout 9-mark-all-tasks-in-a-category-as-completed 
+git add SI2025Lab1Main.java
+git commit -m "implemented mark-all-tasks-in-a-category-as-completed function"
+git push origin 9-mark-all-tasks-in-a-category-as-completed
+
+Dali nastanaa nekoi konflikti? Ne, bidejki nemase situacija kade ke se poklopat nekoi sodrzini
+
+Za da gi spojam master so 9-mark-all-tasks-in-a-category-as-completed iskoristiv 
+git merge 9-mark-all-tasks-in-a-category-as-completed (prethodno se vrativ na master grankata)

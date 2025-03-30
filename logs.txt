@@ -1,0 +1,22 @@
+pravev i mali greski pri rabota i imam malku poveke popravano so sto ima i poveke commits
+
+
+$ git log --oneline --graph --all
+* dc65b76 (HEAD -> master, origin/master, origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) corrected function public void markCategoryCompleted(String category)
+* b287273 fixed problem
+*   d640381 Merge pull request #12 from stefanvezenkoski/1-remove-a-task-by-name
+|\
+| * adaa312 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) implemented remove function
+* |   bbe110a Merge pull request #11 from stefanvezenkoski/7-count-tasks-per-category
+|\ \
+| * | 0465db8 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) implemented count function
+| |/
+* |   9f5e1b6 Merge pull request #10 from stefanvezenkoski/9-mark-all-tasks-in-a-category-as-completed
+|\ \
+| |/
+|/|
+| * f5b03bf implemented mark-all-tasks-in-a-category-as-completed function
+|/
+* f14aa8b Add starter code
+* bcae5b9 initial commit
+
