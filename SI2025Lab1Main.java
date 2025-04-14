@@ -127,6 +127,19 @@ public class SI2025Lab1Main {
 
         // MISSING: Calls to the new methods that will be implemented
 
+                // otstranuvanje na zadaca
+        System.out.println("Removing task 'Buy groceries':");
+        manager.removeTask("Buy groceries");
+        manager.printTasks();
+        System.out.println();
+
+        System.out.println("==========================================");
+
+                // setiranje na zadaci kako zavrseni po kategorija
+        System.out.println("Marking all 'School' tasks as completed:");
+        manager.markCategoryCompleted("School");
+        manager.printTasks();
+
         manager.printTasks();
     }
 }
